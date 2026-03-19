@@ -1,0 +1,31 @@
+{
+  "name": "espaco-bem-estar",
+  "version": "1.0.0",
+  "description": "Landing page para o Espaço Bem Estar - Casa de Repouso Feminina em Uberlândia",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "casa-de-repouso",
+    "idosos",
+    "uberlandia",
+    "landing-page",
+    "bem-estar"
+  ],
+  "author": "Espaço Bem Estar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/espaco-bem-estar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/espaco-bem-estar/issues"
+  },
+  "homepage": "https://espacobemestarudi.com",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

@@ -1,0 +1,20 @@
+# ============================================
+# ESPAÇO BEM ESTAR - ROBOTS.TXT
+# ============================================
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://espacobemestarudi.com/sitemap.xml
+
+# Desallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay for specific bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
