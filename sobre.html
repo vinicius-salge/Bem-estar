@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a história do Espaço Bem Estar - Casa de repouso feminina em Uberlândia com mais de 10 anos de experiência em cuidado humanizado.">
+    <title>Sobre Nós | Espaço Bem Estar - Casa de Repouso Feminina</title>
+    
+    <link rel="icon" type="image/png" href="src/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="src/css/design-tokens.css">
+    <link rel="stylesheet" href="src/css/components.css">
+    <link rel="stylesheet" href="src/css/landing.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav" role="navigation" aria-label="Navegação principal">
+                <a href="index.html" class="logo">
+                    <img src="src/img/logo.png" alt="Espaço Bem Estar - Logo">
+                </a>
+
+                <button class="btn-mobile" id="mobileMenuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="index.html#inicio" class="nav-link" role="menuitem">Início</a></li>
+                    <li role="none"><a href="index.html#servicos" class="nav-link" role="menuitem">Serviços</a></li>
+                    <li role="none"><a href="sobre.html" class="nav-link active" role="menuitem">Sobre</a></li>
+                    <li role="none"><a href="index.html#estrutura" class="nav-link" role="menuitem">Estrutura</a></li>
+                    <li role="none"><a href="index.html#depoimentos" class="nav-link" role="menuitem">Depoimentos</a></li>
+                    <li role="none"><a href="index.html#contato" class="nav-link" role="menuitem">Contato</a></li>
+                </ul>
+
+                <a href="https://api.whatsapp.com/send?phone=5534996525295" 
+                   class="btn btn-primary btn-nav" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Fale Conosco</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section Sobre -->
+        <section class="section" style="padding-top: 140px; padding-bottom: 80px;">
+            <div class="container">
+                <div class="about-content" style="display: grid; gap: 60px; align-items: center;">
+                    <div class="about-visual">
+                        <div class="about-image-wrapper">
+                            <img src="src/img/bem estar bg.png" 
+                                 alt="Espaço interno do Bem Estar" 
+                                 class="about-image-main"
+                                 style="width: 100%; max-width: 500px; border-radius: var(--radius-3xl); box-shadow: var(--shadow-2xl);">
+                            <div class="about-badge" style="position: absolute; bottom: -20px; right: -20px; background: var(--color-neutral-0); padding: 24px; border-radius: var(--radius-2xl); box-shadow: var(--shadow-xl); text-align: center;">
+                                <span style="display: block; font-family: var(--font-display); font-size: var(--text-4xl); font-weight: var(--font-bold); color: var(--color-primary-600);">10+</span>
+                                <span style="font-size: var(--text-xs); color: var(--color-neutral-500); max-width: 120px; display: block;">Anos cuidando com amor</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <span class="section-pretitle">Sobre Nós</span>
+                        <h1 class="section-title" style="text-align: left; margin-bottom: 24px;">
+                            Um propósito de <span>cuidar quem cuidou</span>
+                        </h1>
+                        
+                        <div class="about-description" style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+                            <p style="font-size: var(--text-base); color: var(--color-neutral-600); line-height: var(--leading-relaxed);">
+                                O <strong>Espaço Bem Estar</strong> nasceu com um propósito nobre: 
+                                cuidar daquelas que sempre cuidaram de nós. Somos uma instituição 
+                                de longa permanência em Uberlândia, focada exclusivamente no 
+                                atendimento a <strong>mulheres idosas</strong>.
+                            </p>
+                            <p style="font-size: var(--text-base); color: var(--color-neutral-600); line-height: var(--leading-relaxed);">
+                                Nossa casa foi projetada para oferecer um ambiente acolhedor, 
+                                seguro e cheio de vida. Com poucas residentes, garantimos 
+                                <strong>atenção personalizada</strong> e um tratamento familiar 
+                                que faz cada uma se sentir em casa.
+                            </p>
+                            <p style="font-size: var(--text-base); color: var(--color-neutral-600); line-height: var(--leading-relaxed);">
+                                Nos dedicamos diariamente a criar um refúgio seguro, confortável e cheio de vida. 
+                                Nossa estrutura é <strong>100% adaptada</strong> para acolher sua familiar 
+                                da melhor maneira possível, combinando assistência de saúde completa com 
+                                atividades lúdicas, socialização e, acima de tudo, muito carinho.
+                            </p>
+                            <p style="font-size: var(--text-base); color: var(--color-neutral-600); line-height: var(--leading-relaxed);">
+                                Aqui, sua familiar não é apenas uma hóspede, ela <strong>faz parte da nossa família</strong>.
+                            </p>
+                        </div>
+
+                        <div class="about-features" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 32px;">
+                            <div class="feature-item" style="display: flex; align-items: flex-start; gap: 16px;">
+                                <div class="feature-icon" style="flex-shrink: 0; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600)); color: var(--color-neutral-0); font-size: var(--text-lg); border-radius: var(--radius-lg);">
+                                    <i class="fa-solid fa-house-chimney-heart"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 style="font-family: var(--font-display); font-size: var(--text-lg); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 4px;">Ambiente Familiar</h4>
+                                    <p style="font-size: var(--text-sm); color: var(--color-neutral-500);">Casa com poucas residentes para atenção exclusiva</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item" style="display: flex; align-items: flex-start; gap: 16px;">
+                                <div class="feature-icon" style="flex-shrink: 0; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600)); color: var(--color-neutral-0); font-size: var(--text-lg); border-radius: var(--radius-lg);">
+                                    <i class="fa-solid fa-universal-access"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 style="font-family: var(--font-display); font-size: var(--text-lg); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 4px;">Estrutura Adaptada</h4>
+                                    <p style="font-size: var(--text-sm); color: var(--color-neutral-500);">100% preparada para acessibilidade e segurança</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item" style="display: flex; align-items: flex-start; gap: 16px;">
+                                <div class="feature-icon" style="flex-shrink: 0; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600)); color: var(--color-neutral-0); font-size: var(--text-lg); border-radius: var(--radius-lg);">
+                                    <i class="fa-solid fa-heart-circle-check"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 style="font-family: var(--font-display); font-size: var(--text-lg); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 4px;">Cuidado Humanizado</h4>
+                                    <p style="font-size: var(--text-sm); color: var(--color-neutral-500);">Carinho e respeito em cada interação</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item" style="display: flex; align-items: flex-start; gap: 16px;">
+                                <div class="feature-icon" style="flex-shrink: 0; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600)); color: var(--color-neutral-0); font-size: var(--text-lg); border-radius: var(--radius-lg);">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 style="font-family: var(--font-display); font-size: var(--text-lg); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 4px;">Equipe Multiprofissional</h4>
+                                    <p style="font-size: var(--text-sm); color: var(--color-neutral-500);">Profissionais especializados e dedicados</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="index.html#contato" class="btn btn-primary btn-lg">
+                            Entre em contato
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nossos Valores -->
+        <section class="section" style="background: var(--color-warm-50);">
+            <div class="container">
+                <div class="section-header" style="text-align: center; max-width: 640px; margin: 0 auto 64px;">
+                    <span class="section-pretitle">Nossos Valores</span>
+                    <h2 class="section-title">
+                        O que nos <span>move todos os dias</span>
+                    </h2>
+                </div>
+
+                <div class="grid grid-3" style="gap: 32px;">
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Carinho</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Tratamos cada residente com o mesmo amor e dedicação que gostaríamos de receber. 
+                            O carinho é a base de tudo o que fazemos.
+                        </p>
+                    </div>
+
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-shield-heart"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Segurança</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Estrutura completa e equipe preparada para garantir a segurança física e 
+                            emocional de nossas residentes 24 horas por dia.
+                        </p>
+                    </div>
+
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-hand-holding-hand"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Respeito</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Valorizamos a história, a individualidade e a dignidade de cada residente. 
+                            Respeito é essencial em cada interação.
+                        </p>
+                    </div>
+
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-handshake-angle"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Compromisso</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Estamos comprometidos com o bem-estar físico, mental e social de nossas 
+                            residentes em todos os momentos.
+                        </p>
+                    </div>
+
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Inovação</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Buscamos constantemente novas formas de melhorar nossos serviços 
+                            e proporcionar mais qualidade de vida.
+                        </p>
+                    </div>
+
+                    <div class="card card-service" style="padding: 48px 32px; text-align: center; border: 1px solid var(--color-warm-200);">
+                        <div class="card-icon" style="width: 72px; height: 72px; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-50), var(--color-primary-100)); color: var(--color-primary-600); font-size: 32px; border-radius: var(--radius-xl);">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+                        <h3 style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--font-semibold); color: var(--color-neutral-800); margin-bottom: 12px;">Família</h3>
+                        <p style="font-size: var(--text-sm); color: var(--color-neutral-500); line-height: var(--leading-relaxed);">
+                            Incentivamos a participação das famílias e criamos um ambiente 
+                            onde todos se sentem parte de uma grande família.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700)); color: var(--color-neutral-0); text-align: center;">
+            <div class="container">
+                <h2 style="font-family: var(--font-display); font-size: var(--text-4xl); font-weight: var(--font-semibold); margin-bottom: 24px;">
+                    Venha conhecer nossa casa
+                </h2>
+                <p style="font-size: var(--text-lg); opacity: 0.9; max-width: 600px; margin: 0 auto 40px; line-height: var(--leading-relaxed);">
+                    Agende uma visita e descubra por que o Espaço Bem Estar é o lugar ideal 
+                    para quem você ama. Estamos ansiosos para recebê-lo!
+                </p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="https://api.whatsapp.com/send?phone=5534996525295" 
+                       class="btn" 
+                       style="background: var(--color-neutral-0); color: var(--color-primary-600); padding: 16px 32px; border-radius: var(--radius-xl); font-weight: var(--font-semibold);"
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Agendar Visita
+                    </a>
+                    <a href="index.html#contato" 
+                       class="btn" 
+                       style="background: transparent; color: var(--color-neutral-0); border: 2px solid var(--color-neutral-0); padding: 16px 32px; border-radius: var(--radius-xl); font-weight: var(--font-semibold);">
+                        <i class="fa-solid fa-envelope"></i>
+                        Enviar Mensagem
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="src/img/logo.png" alt="Espaço Bem Estar" class="footer-logo" style="height: 60px; filter: brightness(0) invert(1); margin-bottom: 20px;">
+                    <p style="font-size: 14px; color: var(--color-neutral-300); line-height: 1.6; margin-bottom: 24px;">
+                        Cuidado humanizado e atenção especial para mulheres idosas. 
+                        Um lar acolhedor em Uberlândia.
+                    </p>
+                    <div class="footer-social" style="display: flex; gap: 12px;">
+                        <a href="#" class="social-link" aria-label="Facebook" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--color-neutral-700); color: var(--color-neutral-300); border-radius: var(--radius-lg);">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--color-neutral-700); color: var(--color-neutral-300); border-radius: var(--radius-lg);">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=5534996525295" class="social-link" aria-label="WhatsApp" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--color-neutral-700); color: var(--color-neutral-300); border-radius: var(--radius-lg);" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 40px; margin-top: 40px;">
+                    <div class="footer-column">
+                        <h4 style="font-family: var(--font-display); font-size: 18px; color: var(--color-neutral-0); margin-bottom: 20px;">Links Rápidos</h4>
+                        <ul style="display: flex; flex-direction: column; gap: 12px; list-style: none;">
+                            <li><a href="index.html#inicio" style="font-size: 14px; color: var(--color-neutral-400);">Início</a></li>
+                            <li><a href="index.html#servicos" style="font-size: 14px; color: var(--color-neutral-400);">Serviços</a></li>
+                            <li><a href="sobre.html" style="font-size: 14px; color: var(--color-neutral-400);">Sobre Nós</a></li>
+                            <li><a href="index.html#contato" style="font-size: 14px; color: var(--color-neutral-400);">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 style="font-family: var(--font-display); font-size: 18px; color: var(--color-neutral-0); margin-bottom: 20px;">Contato</h4>
+                        <ul style="display: flex; flex-direction: column; gap: 12px; list-style: none;">
+                            <li style="display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--color-neutral-400);">
+                                <i class="fa-solid fa-location-dot" style="color: var(--color-primary-400); margin-top: 4px;"></i>
+                                <span>R. dos Ceamitas, 871<br>Chácaras Panorama<br>Uberlândia - MG</span>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=5534996525295" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: var(--color-neutral-400);">
+                                    <i class="fa-brands fa-whatsapp" style="color: var(--color-primary-400);"></i>
+                                    (34) 99652-5295
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; padding-top: 32px; border-top: 1px solid var(--color-neutral-700); margin-top: 48px; text-align: center;">
+                <p style="font-size: 14px; color: var(--color-neutral-500);">&copy; 2025 Espaço Bem Estar. Todos os direitos reservados.</p>
+                <p style="font-size: 14px; color: var(--color-neutral-500);">Feito com <i class="fa-solid fa-heart" style="color: var(--color-error-500);"></i> em Uberlândia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://api.whatsapp.com/send?phone=5534996525295" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Fale conosco pelo WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; z-index: 300; display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: linear-gradient(135deg, #25d366, #128c7e); color: var(--color-neutral-0); font-size: 24px; border-radius: var(--radius-full); box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span style="font-size: 14px; font-weight: var(--font-semibold);">Fale Conosco</span>
+    </a>
+
+    <script src="src/js/landing.js"></script>
+</body>
+</html>
